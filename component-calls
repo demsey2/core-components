@@ -1,13 +1,39 @@
+// Shows how many unopened messages a user has
 <component class="HomePageMailStatus" show_only_new="1" title="${mail:home:new_messages.body}" hide_if_empty="1" />
 
+
+// Home Polls component
 <component class="HomePagePollsList" hide_if_empty="1" />
 
+
+// Hompage surveys
 <component class="HomePageSurveysList" hide_if_empty="1" />
 
+
+// Shows an innovate follow button on a users profile page
+<component class="InnovateComponentFollow">
+
+
+// Links to a Google Hangout creation page. The app_id needs to exist for a company, this can only be retrived if the company has Google enterprise
+<component class="PeopleGoogleHangoutButton" app_id="xxx">
+
+
+// Shows a LinkedIn overview on a profile page. The user must have the metadata key "linkedin" filled in on their edit profile page
+<component class="PeopleLinkedInComponent">
+
+
+// Shows a Skype call button on a profile page. The user must have the metadata key "skype" filled in on their edit profile page
+<component class="PeopleSkypeMeButton">
+
+
+// Anniversary componenet - users need to have the metadata key "dob" filled pout on their profile page
 <component class="TemplaterComponentAnniversary" metakey="dob" />
 
+
+// Shows documents that have a review date set. Documents must have the metadata key specificed in the "metadate" paramater specificed
 <component class="TemplaterComponentDocumentDue" metadate="review" />
 
+// Mini Calendar componenet
 <component class="TemplaterComponentMiniCalendar" />
 
 
