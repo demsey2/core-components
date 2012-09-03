@@ -1,0 +1,17 @@
+<component class="HomePageMailStatus" show_only_new="1" title="${mail:home:new_messages.body}" hide_if_empty="1" />
+
+<component class="HomePagePollsList" hide_if_empty="1" />
+
+<component class="HomePageSurveysList" hide_if_empty="1" />
+
+<component class="TemplaterComponentAnniversary" metakey="dob" />
+
+<component class="TemplaterComponentDocumentDue" metadate="review" />
+
+<component class="TemplaterComponentMiniCalendar" />
+
+
+
+
+			
+			
