@@ -7,9 +7,9 @@ Choose the component you like!
 
 To install copy the component to your home page:
 
-// Shows how many unopened messages a user has
+// Shows documents that have a review date set. Documents must have the metadata key specificed in the "metadate" paramater specificed
 ```html
-	<component class="HomePageMailStatus" show_only_new="1" title="${mail:home:new_messages.body}" hide_if_empty="1" />
+	<component class="TemplaterComponentDocumentDue" metadate="review" />
 ```
 [![](https://raw.github.com/Claromentis/core-components/master/cal.png)](https://raw.github.com/Claromentis/core-components/master/cal.png)
 
