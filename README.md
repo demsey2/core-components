@@ -19,3 +19,12 @@ To install copy the component to your home page:
 ```html
 	<component class="TemplaterComponentMiniCalendar" />
 ```
+
+[![](https://raw.github.com/Claromentis/core-components/master/poll.png)](https://raw.github.com/Claromentis/core-components/master/poll.png)
+
+To install copy the component to your home page:
+
+// Home Polls component
+```html
+	<component class="HomePagePollsList" hide_if_empty="1" />
+```
